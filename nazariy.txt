@@ -1,0 +1,27 @@
+Mavzu:
+    git(service) -> bu service ! commandaga ega bo'lgan service !
+    github(joy) -> projectlar saqlanadigan , jamoviy ishlanadigan muhim platforma
+    .env -> secret data larni saqlab turadigan mahsus file ! BOT_TOKEN , DB_HOST , DB_PASSWORD ...
+    .gitignore -> github platformasiga jo'natilmaydigan file , papka ro'yhati yoziladigan mahsus file
+
+    push -> github ga project yuborish , yangilash amalini bajaradigan muhim kamanda
+    pull -> githubdagi projectni olish , va o'zimizda update qilish mumkin bo'ladigan muhim kamanda
+    commit -> bizda bor projectni github ga joylab , joylangandan kyingi holatda biz projectda qandaydur codelar qo'shadigan
+            bo'lsak ularni commit komandasi orqali pushga tayorlaymiz
+
+
+
+
+1)
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/dilshodev-py/p38_project_test.git
+    git push -u origin main
+
+2) pycharm + github
+
+
+
+
